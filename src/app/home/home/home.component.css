@@ -1,0 +1,97 @@
+/* Estilos base para la sección */
+.section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el contenedor 'face' */
+.face {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    max-width: 1200px;
+    margin: auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para las tarjetas 'designer' y 'coder' */
+.designer,
+.coder {
+    flex: 1;
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.designer:hover,
+.coder:hover {
+    transform: translateY(-10px);
+}
+
+/* Estilos para los títulos y párrafos dentro de 'designer' y 'coder' */
+.designer h1,
+.coder h1,
+.designer p,
+.coder p {
+    margin: 0;
+    padding: 10px 0;
+    color: #333;
+}
+
+.designer h1,
+.coder h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.designer p,
+.coder p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+/* Estilos para las imágenes */
+.face-img,
+.designer-img,
+.coder-img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Estilos para los fondos de 'designer' y 'coder' */
+.designer-bg,
+.coder-bg {
+    top: 0;
+    width: 50%;
+    height: 100%;
+    transition: width 0.3s ease;
+}
+
+.designer-bg {
+    left: 0;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.coder-bg {
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+/* Estilos para los enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Estilos para los iconos 'chevron' */
+.chevron-left,
+.chevron-right {
+    font-size: 1.5em;
+    color: #777;
+}

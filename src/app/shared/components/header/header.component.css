@@ -3,14 +3,8 @@ header {
     font-size: 18px;
     color: #333;
     background-color: #111;
-    height: 92px;
+    padding: 10px 0;
     width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    padding: 0 50px;
-    box-sizing: border-box;
 }
 
 nav {
